@@ -1,0 +1,7 @@
+C:\Users\fbousry\Documents\Test\Mobilier\Mobilier\obj\Debug\Mobilier.csprojResolveAssemblyReference.cache
+C:\Users\fbousry\Documents\Test\Mobilier\Mobilier\bin\Debug\Mobilier.exe
+C:\Users\fbousry\Documents\Test\Mobilier\Mobilier\bin\Debug\Mobilier.pdb
+C:\Users\fbousry\Documents\Test\Mobilier\Mobilier\obj\Debug\Mobilier.exe
+C:\Users\fbousry\Documents\Test\Mobilier\Mobilier\obj\Debug\Mobilier.pdb
+C:\Users\fbousry\Documents\Test\Mobilier\Mobilier\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fbousry\Documents\Test\Mobilier\Mobilier\bin\Debug\Newtonsoft.Json.xml

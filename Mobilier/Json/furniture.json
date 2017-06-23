@@ -1,0 +1,30 @@
+[
+  {
+    "DesignerName": "j",
+    "Height": 1,
+    "Weight": 1,
+    "Price": 1,
+    "Type": "Chair"
+  },
+  {
+    "DesignerName": "k",
+    "Height": 2,
+    "Weight": 2,
+    "Price": 5,
+    "Type": "Armchair"
+  },
+  {
+    "DesignerName": "james",
+    "Height": 5,
+    "Weight": 4,
+    "Price": 3,
+    "Type": "Table"
+  },
+  {
+    "DesignerName": "Starck",
+    "Height": 15,
+    "Weight": 20,
+    "Price": 10,
+    "Type": "Chair"
+  }
+]
