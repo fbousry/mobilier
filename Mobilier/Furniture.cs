@@ -17,9 +17,11 @@ namespace Mobilier
 
         public String Type { get; set; }
 
+        public int ShipmentPrice { get; set; }
+
         public override string ToString()
         {
-            return "§ " + Type + " " + DesignerName + " " + Height + "cm " + Weight + "kg " + Price + "euros";
+            return "§ " + Type + " " + DesignerName + " " + Height + "cm " + Weight + "kg " + Price + "euros " + "prix de livraison:" + ShipmentPrice + " euros ";
         }
     }
 }

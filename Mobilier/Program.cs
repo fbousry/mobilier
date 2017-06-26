@@ -14,19 +14,17 @@ namespace Mobilier
                 var service = new FurnitureService();
                 var shipment = new Shipment();
                 var colissimoShipment = new ColissimoShipment();
-                double shipmentPrice = 0, colissimoShipmentPrice = 0;
+                double shipmentPrice = 0;
 
                 var listFurniture = service.getAllFurniture();
                 if (listFurniture != null)
                 {
                     foreach (var furniture in listFurniture) { 
                         Console.WriteLine(furniture.ToString());
-                        shipmentPrice += shipment.Compute(furniture.Weight, furniture.Height);
-                        colissimoShipmentPrice += colissimoShipment.Compute(furniture.Weight, furniture.Height);
+                        shipmentPrice += furniture.ShipmentPrice;
                     }
                     Console.WriteLine();
                     Console.WriteLine("cost of shipment:{0} euros", shipmentPrice);
-                    Console.WriteLine("cost of colissimo shipment:{0} euros", colissimoShipmentPrice);
                 }
                 Console.WriteLine();
                 Console.WriteLine("Enter furniture: (q to exit)");

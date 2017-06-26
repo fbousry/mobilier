@@ -4,27 +4,39 @@
     "Height": 1,
     "Weight": 1,
     "Price": 1,
-    "Type": "Chair"
+    "Type": "Chair",
+    "ShipmentPrice": 0
   },
   {
     "DesignerName": "k",
     "Height": 2,
     "Weight": 2,
     "Price": 5,
-    "Type": "Armchair"
+    "Type": "Armchair",
+    "ShipmentPrice": 0
   },
   {
     "DesignerName": "james",
     "Height": 5,
     "Weight": 4,
     "Price": 3,
-    "Type": "Table"
+    "Type": "Table",
+    "ShipmentPrice": 0
   },
   {
     "DesignerName": "Starck",
     "Height": 15,
     "Weight": 20,
     "Price": 10,
-    "Type": "Chair"
+    "Type": "Chair",
+    "ShipmentPrice": 0
+  },
+  {
+    "DesignerName": "eiffel",
+    "Height": 42,
+    "Weight": 41,
+    "Price": 56,
+    "Type": "Table",
+    "ShipmentPrice": 23
   }
 ]

@@ -20,24 +20,24 @@ namespace Mobilier
         public bool addFurniture(String[] array)
         {
             Furniture furniture = null;
-            int height = 0, weight = 0, price = 0;
+            int height = 0, weight = 0, price = 0, shipmentPrice = 0;
 
-            if (array != null & array.Count() >= 6)
+            if (array != null & array.Count() >= 7)
             {
                 if (array[0] == "add")
                 {
-                    if (Int32.TryParse(array[3], out height) && Int32.TryParse(array[4], out weight) && Int32.TryParse(array[5], out price))
+                    if (Int32.TryParse(array[3], out height) && Int32.TryParse(array[4], out weight) && Int32.TryParse(array[5], out price) && Int32.TryParse(array[6], out shipmentPrice))
                     {
                         switch (array[1].ToUpper())
                         {
                             case "TABLE":
-                                furniture = new Table(array[2], height, weight, price);
+                                furniture = new Table(array[2], height, weight, price, shipmentPrice);
                                 break;
                             case "CHAIR":
-                                furniture = new Chair(array[2], height, weight, price);
+                                furniture = new Chair(array[2], height, weight, price, shipmentPrice);
                                 break;
                             case "ARMCHAIR":
-                                furniture = new Armchair(array[2], height, weight, price);
+                                furniture = new Armchair(array[2], height, weight, price, shipmentPrice);
                                 break;
                         }
                         AddFurnitureToJson(furniture);
